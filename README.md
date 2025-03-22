@@ -2,7 +2,7 @@
 
 ## Description
 
-In this workshop, we will learn how to use the bioinformatics program **ARB** for taxonomic classification and phylogenetic reconstruction based on the **16S rRNA gene**. ARB is a powerful software suite designed for handling and analyzing large sequence datasets, particularly in microbial taxonomy. We will use the **Living Tree Project ([LTP](https://imedea.uib-csic.es/mmg/ltp/)) database** as a reference, which provides a curated and phylogenetically structured dataset of 16S rRNA gene sequences from type strains of prokaryotic species.
+In this workshop, we will learn how to use the bioinformatics program **ARB** for phylogenetic reconstruction based on the **16S rRNA gene**. ARB is a powerful software suite designed for handling and analyzing large sequence datasets, particularly in microbial taxonomy. We will use the **Living Tree Project ([LTP](https://imedea.uib-csic.es/mmg/ltp/)) database** as a reference, which provides a curated and phylogenetically structured dataset of 16S rRNA gene sequences from type strains of prokaryotic species.
 
 The objective of this session is to:
 - Learn how to integrate new sequences into the LTP database.
@@ -26,6 +26,27 @@ wget 'https://disc-genomics.uibk.ac.at/data/LTP_10_2024.arb'
 You can also visit the official [LTP website](https://imedea.uib-csic.es/mmg/ltp/) for further details about the database and updates.
 
 ## Using ARB for Phylogenetic Reconstruction
+
+### Locating the 16S rRNA Gene Sequences
+
+For this workshop, the **16S rRNA gene sequence** that we will use is stored in the following directory. Navigate to the folder using:
+
+#### Open a terminal!!
+
+#### Download the 16S rRNA sequence using:
+
+```bash
+wget  --content-disposition https://figshare.com/ndownloader/files/53160257
+mv Salinibacter_16S.fasta.txt Salinibacter_16S.fasta
+```
+
+The file containing the 16S rRNA sequence is called Salinibacter_16S.fasta
+
+Take a look to the 16S rRNA sequence:
+
+```bash
+less Salinibacter_16S.fasta
+```
 
 ### 16S rRNA sequence 
 
@@ -61,21 +82,6 @@ arb
 
 This will open the ARB graphical interface, allowing us to visualize and manipulate 16S rRNA sequences for phylogenetic analysis.
 
-### Locating the 16S rRNA Gene Sequences
-
-For this workshop, the **16S rRNA gene sequence** that we will use is stored in the following directory. Navigate to the folder using:
-
-```bash
-cd /home/rute
-```
-
-Once inside the directory, you can list the available files using:
-
-```bash
-ls -lh
-```
-
-This command provides a human-readable list of the sequence files that we will analyze.
 
 ### Importing Sequences into ARB
 
