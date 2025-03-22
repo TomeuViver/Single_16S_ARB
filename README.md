@@ -25,15 +25,12 @@ wget 'https://disc-genomics.uibk.ac.at/data/LTP_10_2024.arb'
 
 You can also visit the official [LTP website](https://imedea.uib-csic.es/mmg/ltp/) for further details about the database and updates.
 
-## Using ARB for Phylogenetic Reconstruction
 
-### Locating the 16S rRNA Gene Sequences
+## Locating the 16S rRNA Gene Sequences
 
-For this workshop, the **16S rRNA gene sequence** that we will use is stored in the following directory. Navigate to the folder using:
+Open a terminal in the Virtual Machine!!
 
-#### Open a terminal!!
-
-#### Download the 16S rRNA sequence using:
+Download the 16S rRNA sequence using:
 
 ```bash
 wget  --content-disposition https://figshare.com/ndownloader/files/53160257
@@ -71,6 +68,8 @@ GTTCGGATTGGAGTCTGCAACTCGACTCCATGAAGCAGGAATCGCTAGTAATCGCGGATCAGCAATGCCGCGGTGAATAC
 GGGCCTTGTACACACCGCCCGTCAAGCCATGGAAGCTGAGAGCACCCGAAGTCCGTGACCCAACCTTTTGGGAGGGAGCGGCCGAA
 GGTGAGCTCAGTGACTGGGGCTAAGTCGTAACAAGGTAGCCGTACCGGAAGGTGCGGCTGGATCACCTCCT
 ```
+
+## Using ARB for Phylogenetic Reconstruction
 
 ### Opening ARB
 
