@@ -20,10 +20,16 @@ The **Living Tree Project (LTP) database** is a curated database containing alig
 To download the most recent release of the **LTP database**, use the following command in the terminal:
 
 ```bash
+wget https://imedea.uib-csic.es/mmg/ltp/wp-content/uploads/ltp/LTP_10_2024.arb
+```
+
+Or also you could use the next link:
+
+```bash
 wget 'https://disc-genomics.uibk.ac.at/data/LTP_10_2024.arb'
 ```
 
-You can also visit the official [LTP website](https://imedea.uib-csic.es/mmg/ltp/) for further details about the database and updates.
+You can visit the official [LTP website](https://imedea.uib-csic.es/mmg/ltp/) for further details about the database and updates.
 
 
 ## Locating the 16S rRNA Gene Sequences
