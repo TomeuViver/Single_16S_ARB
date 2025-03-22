@@ -33,8 +33,7 @@ Open a terminal in the Virtual Machine!!
 Download the 16S rRNA sequence using:
 
 ```bash
-wget  --content-disposition https://figshare.com/ndownloader/files/53160257
-mv Salinibacter_16S.fasta.txt Salinibacter_16S.fasta
+wget -O Salinibacter_16S.fasta "https://figshare.com/ndownloader/files/53160257"
 ```
 
 The file containing the 16S rRNA sequence is called Salinibacter_16S.fasta
