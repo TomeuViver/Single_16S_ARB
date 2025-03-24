@@ -76,7 +76,7 @@ GGTGAGCTCAGTGACTGGGGCTAAGTCGTAACAAGGTAGCCGTACCGGAAGGTGCGGCTGGATCACCTCCT
 
 ## Using ARB for Phylogenetic Reconstruction
 
-Visit the [ARB web page](http://www.arb-home.de/) for details on the software
+Visit the [ARB web page](http://www.arb-home.de/) for details of the software
 
 ### Opening ARB
 
