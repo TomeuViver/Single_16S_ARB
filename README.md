@@ -76,6 +76,8 @@ GGTGAGCTCAGTGACTGGGGCTAAGTCGTAACAAGGTAGCCGTACCGGAAGGTGCGGCTGGATCACCTCCT
 
 ## Using ARB for Phylogenetic Reconstruction
 
+Visit the [ARB web page](http://www.arb-home.de/) for details on the software
+
 ### Opening ARB
 
 To launch **ARB**, simply execute the following command in your terminal:
