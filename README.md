@@ -13,7 +13,7 @@ This session will provide valuable hands-on experience in computational microbia
 
 ## The Living Tree Project (LTP) Database
 
-The **Living Tree Project (LTP) database** is a curated database containing aligned **16S rRNA gene sequences** from type strains of described bacterial and archaeal species. It is an essential reference for taxonomic studies and phylogenetic reconstructions.
+The [**Living Tree Project (LTP) database**](https://imedea.uib-csic.es/mmg/ltp/) is a curated database containing aligned **16S rRNA gene sequences** from type strains of described bacterial and archaeal species. It is an essential reference for taxonomic studies and phylogenetic reconstructions.
 
 ### Downloading the Latest LTP Database
 
